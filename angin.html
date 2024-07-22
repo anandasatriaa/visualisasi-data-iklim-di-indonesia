@@ -27,6 +27,44 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    #iframe7 {
+      width: 100%;
+      height: 650px;
+    }
+    #iframe8 {
+      width: 100%;
+      height: 650px;
+    }
+
+    @media (max-width: 1024px) {
+      #iframe7 {
+        height: 500px;
+      }
+      #iframe8 {
+        height: 500px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #iframe7 {
+        height: 350px;
+      }
+      #iframe8 {
+        height: 350px;
+      }
+    }
+
+    @media (max-width: 425px) {
+      #iframe7 {
+        height: 230px;
+      }
+      #iframe8 {
+        height: 230px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -72,8 +110,8 @@
 
     <section id="suhu" class="inner-page">
       <div class="container">
-        <iframe width="100%" height="650" src="https://lookerstudio.google.com/embed/reporting/aa69f02a-fa1f-4916-b7d6-d33e5e338812/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
-        <iframe width="100%" height="650" src="https://lookerstudio.google.com/embed/reporting/ae61794a-5072-4a49-8993-a8b5af9b7ca4/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <iframe id="iframe7" width="100%" height="650" src="https://lookerstudio.google.com/embed/reporting/aa69f02a-fa1f-4916-b7d6-d33e5e338812/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <iframe id="iframe8" width="100%" height="650" src="https://lookerstudio.google.com/embed/reporting/ae61794a-5072-4a49-8993-a8b5af9b7ca4/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
         <div class="card">
           <div class="card-body border border-primary rounded">
             <h4>Insight Diagram:</h4>

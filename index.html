@@ -27,6 +27,106 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+    #iframe1 {
+      width: 100%;
+      height: 650px;
+    }
+    #iframe2 {
+      height: 230px;
+    }
+    #iframe3 {
+      height: 230px;
+    }
+    #iframe4 {
+      height: 230px;
+    }
+    #iframe-tab-1 {
+      width: 100%;
+      height: 740px;
+    }
+    #iframe-tab-2 {
+      width: 100%;
+      height: 740px;
+    }
+    #iframe-tab-3 {
+      width: 100%;
+      height: 740px;
+    }
+
+    @media (max-width: 1024px) {
+      #iframe1 {
+        height: 500px;
+      }
+      #iframe2 {
+        height: 150px;
+      }
+      #iframe3 {
+        height: 150px;
+      }
+      #iframe4 {
+        height: 150px;
+      }
+      #iframe-tab-1 {
+        height: 540px;
+      }
+      #iframe-tab-2 {
+        height: 540px;
+      }
+      #iframe-tab-3 {
+        height: 540px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #iframe1 {
+        height: 350px;
+      }
+      #iframe2 {
+        height: 160px;
+      }
+      #iframe3 {
+        height: 160px;
+      }
+      #iframe4 {
+        height: 160px;
+      }
+      #iframe-tab-1 {
+        height: 410px;
+      }
+      #iframe-tab-2 {
+        height: 410px;
+      }
+      #iframe-tab-3 {
+        height: 410px;
+      }
+    }
+
+    @media (max-width: 425px) {
+      #iframe1 {
+        height: 230px;
+      }
+      #iframe2 {
+        height: 230px;
+      }
+      #iframe3 {
+        height: 230px;
+      }
+      #iframe4 {
+        height: 230px;
+      }
+      #iframe-tab-1 {
+        height: 250px;
+      }
+      #iframe-tab-2 {
+        height: 250px;
+      }
+      #iframe-tab-3 {
+        height: 250px;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -69,7 +169,7 @@
     <!-- ======= Dashboard 1 Section ======= -->
     <section id="dashboard1">
       <div class="container py-2" data-aos="fade-up">
-        <iframe width="100%" height="650px" src="https://lookerstudio.google.com/embed/reporting/e254bc9c-c4dd-4e10-b313-b8ed261da2d1/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+        <iframe id="iframe1" width="100%" height="650px" src="https://lookerstudio.google.com/embed/reporting/e254bc9c-c4dd-4e10-b313-b8ed261da2d1/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
         <div class="card">
           <div class="card-body border border-primary rounded">
             Dashboard di atas adalah visualisasi data iklim di Indonesia dari tahun 2010 hingga 2020. Dashboard visualisasi iklim interaktif tersebut memungkinkan pengguna untuk melakukan berbagai hal berikut:
@@ -119,7 +219,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
-              <iframe width="100%" height="230" src="https://lookerstudio.google.com/embed/reporting/8fc94fd0-4a9c-4d88-b754-5f678c975bc9/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+              <iframe id="iframe2" width="100%" height="230" src="https://lookerstudio.google.com/embed/reporting/8fc94fd0-4a9c-4d88-b754-5f678c975bc9/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
               <!-- <div class="card-icon">
                 <i class="ri-movie-2-line"></i>
               </div> -->
@@ -132,7 +232,7 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
-              <iframe width="100%" height="230px" src="https://lookerstudio.google.com/embed/reporting/4c58e5bb-8bff-490a-ad50-32782994c69f/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+              <iframe id="iframe3" width="100%" height="230px" src="https://lookerstudio.google.com/embed/reporting/4c58e5bb-8bff-490a-ad50-32782994c69f/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
               <!-- <div class="card-icon">
                 <i class="ri-brush-4-line"></i>
               </div> -->
@@ -145,7 +245,7 @@
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <iframe width="100%" height="230" src="https://lookerstudio.google.com/embed/reporting/aa69f02a-fa1f-4916-b7d6-d33e5e338812/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+              <iframe id="iframe4" width="100%" height="230" src="https://lookerstudio.google.com/embed/reporting/aa69f02a-fa1f-4916-b7d6-d33e5e338812/page/Nvm5D" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
               <!-- <div class="card-icon">
                 <i class="ri-calendar-check-line"></i>
               </div> -->
