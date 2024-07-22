@@ -916,7 +916,7 @@ section {
   font-size: 26px;
 }
 
-.features .tab-pane ul {
+/* .features .tab-pane ul {
   list-style: none;
   padding: 0;
 }
@@ -929,7 +929,7 @@ section {
   font-size: 20px;
   padding-right: 4px;
   color: #1a73e8;
-}
+} */
 
 .features .tab-pane p:last-child {
   margin-bottom: 0;
